@@ -11,7 +11,7 @@ call plug#end()
 set runtimepath^=~/.config/nvim//bundle/ctrlp.vim
 
 set background=dark
-color synthwave
+colorscheme gruvbox
 
 if has('termguicolors')
   set termguicolors
@@ -21,6 +21,8 @@ endif
 
 set expandtab
 set shiftwidth=4
+set path+=**
+set wildignore+=*.class 
 
 set relativenumber
 set hidden
